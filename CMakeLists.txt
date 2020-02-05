@@ -68,7 +68,7 @@ file(GLOB_RECURSE SRCS
 )
 
 # Define the executable
-add_executable(CGFX5 ${HDRS} ${SRCS} src/core/iapplicationEventHandler.hpp src/inputControl.hpp src/gameEventHandler.hpp src/gameEventHandler.cpp)
+add_executable(CGFX5 ${HDRS} ${SRCS} src/core/iapplicationEventHandler.hpp src/inputControl.hpp src/gameEventHandler.hpp src/gameEventHandler.cpp src/ecs/ecsComponent.hpp src/ecs/ecsComponent.cpp)
 
 # We need a CMAKE_DIR with some code to find external dependencies
 SET(CGFX5_CMAKE_DIR "${CGFX5_SOURCE_DIR}/cmake")

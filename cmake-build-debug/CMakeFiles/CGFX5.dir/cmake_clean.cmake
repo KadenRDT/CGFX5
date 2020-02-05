@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CGFX5.pdb"
   "CMakeFiles/CGFX5.dir/src/core/memory.cpp.o"
   "CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o"
+  "CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o"
   "CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o"
   "CMakeFiles/CGFX5.dir/src/main.cpp.o"
   "CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o"

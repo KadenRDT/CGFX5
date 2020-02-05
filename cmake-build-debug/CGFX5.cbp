@@ -99,6 +99,9 @@
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/iapplicationEventHandler.hpp">
 			<Option target="CGFX5"/>
 		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/input.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/memory.cpp">
 			<Option target="CGFX5"/>
 		</Unit>
@@ -123,13 +126,16 @@
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.hpp">
 			<Option target="CGFX5"/>
 		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsComponent.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsComponent.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.cpp">
 			<Option target="CGFX5"/>
 		</Unit>
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.hpp">
-			<Option target="CGFX5"/>
-		</Unit>
-		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/input/iinput.h">
 			<Option target="CGFX5"/>
 		</Unit>
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/inputControl.hpp">
