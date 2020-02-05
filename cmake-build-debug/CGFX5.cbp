@@ -123,7 +123,16 @@
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.hpp">
 			<Option target="CGFX5"/>
 		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/input/iinput.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/inputControl.hpp">
 			<Option target="CGFX5"/>
 		</Unit>
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/main.cpp">

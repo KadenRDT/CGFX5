@@ -83,9 +83,22 @@ CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.cpp -o CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.s
 
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: CMakeFiles/CGFX5.dir/flags.make
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/gameEventHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.cpp
+
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.cpp > CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.i
+
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.cpp -o CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.s
+
 CMakeFiles/CGFX5.dir/src/main.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CGFX5.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CGFX5.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/main.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/main.cpp
 
 CMakeFiles/CGFX5.dir/src/main.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/CGFX5.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o: ../src/math/aabb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/aabb.cpp
 
 CMakeFiles/CGFX5.dir/src/math/aabb.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/CGFX5.dir/src/math/aabb.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/color.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/color.cpp.o: ../src/math/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CGFX5.dir/src/math/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CGFX5.dir/src/math/color.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/color.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/color.cpp
 
 CMakeFiles/CGFX5.dir/src/math/color.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/CGFX5.dir/src/math/color.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/matrix.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/matrix.cpp.o: ../src/math/matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CGFX5.dir/src/math/matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CGFX5.dir/src/math/matrix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/matrix.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/matrix.cpp
 
 CMakeFiles/CGFX5.dir/src/math/matrix.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/CGFX5.dir/src/math/matrix.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/plane.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/plane.cpp.o: ../src/math/plane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CGFX5.dir/src/math/plane.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CGFX5.dir/src/math/plane.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/plane.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/plane.cpp
 
 CMakeFiles/CGFX5.dir/src/math/plane.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/CGFX5.dir/src/math/plane.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/quaternion.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/quaternion.cpp.o: ../src/math/quaternion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CGFX5.dir/src/math/quaternion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CGFX5.dir/src/math/quaternion.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/quaternion.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/quaternion.cpp
 
 CMakeFiles/CGFX5.dir/src/math/quaternion.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/CGFX5.dir/src/math/quaternion.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/sphere.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/sphere.cpp.o: ../src/math/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CGFX5.dir/src/math/sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CGFX5.dir/src/math/sphere.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/sphere.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/sphere.cpp
 
 CMakeFiles/CGFX5.dir/src/math/sphere.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/CGFX5.dir/src/math/sphere.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/transform.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/transform.cpp.o: ../src/math/transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CGFX5.dir/src/math/transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CGFX5.dir/src/math/transform.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/transform.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/transform.cpp
 
 CMakeFiles/CGFX5.dir/src/math/transform.cpp.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/CGFX5.dir/src/math/transform.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/vecmath.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/vecmath.cpp.o: ../src/math/vecmath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CGFX5.dir/src/math/vecmath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CGFX5.dir/src/math/vecmath.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/vecmath.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.cpp
 
 CMakeFiles/CGFX5.dir/src/math/vecmath.cpp.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/CGFX5.dir/src/math/vecmath.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/math/vector.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/math/vector.cpp.o: ../src/math/vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CGFX5.dir/src/math/vector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CGFX5.dir/src/math/vector.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/math/vector.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/math/vector.cpp
 
 CMakeFiles/CGFX5.dir/src/math/vector.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/CGFX5.dir/src/math/vector.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/platform/generic/cmwc4096.c.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/platform/generic/cmwc4096.c.o: ../src/platform/generic/cmwc4096.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CGFX5.dir/src/platform/generic/cmwc4096.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CGFX5.dir/src/platform/generic/cmwc4096.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CGFX5.dir/src/platform/generic/cmwc4096.c.o   -c /home/kcrin001/CLionProjects/CGFX5/src/platform/generic/cmwc4096.c
 
 CMakeFiles/CGFX5.dir/src/platform/generic/cmwc4096.c.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/CGFX5.dir/src/platform/generic/cmwc4096.c.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/platform/generic/genericMemory.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/platform/generic/genericMemory.cpp.o: ../src/platform/generic/genericMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/generic/genericMemory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/generic/genericMemory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/platform/generic/genericMemory.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericMemory.cpp
 
 CMakeFiles/CGFX5.dir/src/platform/generic/genericMemory.cpp.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/CGFX5.dir/src/platform/generic/genericMemory.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/platform/opengl/openGLRenderDevice.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/platform/opengl/openGLRenderDevice.cpp.o: ../src/platform/opengl/openGLRenderDevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/opengl/openGLRenderDevice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/opengl/openGLRenderDevice.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/platform/opengl/openGLRenderDevice.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/openGLRenderDevice.cpp
 
 CMakeFiles/CGFX5.dir/src/platform/opengl/openGLRenderDevice.cpp.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/CGFX5.dir/src/platform/opengl/openGLRenderDevice.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdlApplication.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdlApplication.cpp.o: ../src/platform/sdl/sdlApplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/sdl/sdlApplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/sdl/sdlApplication.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/platform/sdl/sdlApplication.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlApplication.cpp
 
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdlApplication.cpp.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/CGFX5.dir/src/platform/sdl/sdlApplication.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdlWindow.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdlWindow.cpp.o: ../src/platform/sdl/sdlWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/sdl/sdlWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/sdl/sdlWindow.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/platform/sdl/sdlWindow.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlWindow.cpp
 
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdlWindow.cpp.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/CGFX5.dir/src/platform/sdl/sdlWindow.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdltiming.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdltiming.cpp.o: ../src/platform/sdl/sdltiming.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/sdl/sdltiming.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CGFX5.dir/src/platform/sdl/sdltiming.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/platform/sdl/sdltiming.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdltiming.cpp
 
 CMakeFiles/CGFX5.dir/src/platform/sdl/sdltiming.cpp.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/CGFX5.dir/src/platform/sdl/sdltiming.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/rendering/arrayBitmap.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/rendering/arrayBitmap.cpp.o: ../src/rendering/arrayBitmap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/arrayBitmap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/arrayBitmap.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/rendering/arrayBitmap.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/rendering/arrayBitmap.cpp
 
 CMakeFiles/CGFX5.dir/src/rendering/arrayBitmap.cpp.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/CGFX5.dir/src/rendering/arrayBitmap.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/rendering/ddstexture.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/rendering/ddstexture.cpp.o: ../src/rendering/ddstexture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/ddstexture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/ddstexture.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/rendering/ddstexture.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/rendering/ddstexture.cpp
 
 CMakeFiles/CGFX5.dir/src/rendering/ddstexture.cpp.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/CGFX5.dir/src/rendering/ddstexture.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/rendering/indexedModel.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/rendering/indexedModel.cpp.o: ../src/rendering/indexedModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/indexedModel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/indexedModel.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/rendering/indexedModel.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/rendering/indexedModel.cpp
 
 CMakeFiles/CGFX5.dir/src/rendering/indexedModel.cpp.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/CGFX5.dir/src/rendering/indexedModel.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/rendering/modelLoader.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/rendering/modelLoader.cpp.o: ../src/rendering/modelLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/modelLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CGFX5.dir/src/rendering/modelLoader.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/rendering/modelLoader.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/rendering/modelLoader.cpp
 
 CMakeFiles/CGFX5.dir/src/rendering/modelLoader.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/CGFX5.dir/src/rendering/modelLoader.cpp.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/rendering/staticLibs/stb_image.c.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/rendering/staticLibs/stb_image.c.o: ../src/rendering/staticLibs/stb_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CGFX5.dir/src/rendering/staticLibs/stb_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CGFX5.dir/src/rendering/staticLibs/stb_image.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CGFX5.dir/src/rendering/staticLibs/stb_image.c.o   -c /home/kcrin001/CLionProjects/CGFX5/src/rendering/staticLibs/stb_image.c
 
 CMakeFiles/CGFX5.dir/src/rendering/staticLibs/stb_image.c.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/CGFX5.dir/src/rendering/staticLibs/stb_image.c.s: cmake_force
 
 CMakeFiles/CGFX5.dir/src/test.cpp.o: CMakeFiles/CGFX5.dir/flags.make
 CMakeFiles/CGFX5.dir/src/test.cpp.o: ../src/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CGFX5.dir/src/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CGFX5.dir/src/test.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGFX5.dir/src/test.cpp.o -c /home/kcrin001/CLionProjects/CGFX5/src/test.cpp
 
 CMakeFiles/CGFX5.dir/src/test.cpp.i: cmake_force
@@ -373,6 +386,7 @@ CMakeFiles/CGFX5.dir/src/test.cpp.s: cmake_force
 CGFX5_OBJECTS = \
 "CMakeFiles/CGFX5.dir/src/core/memory.cpp.o" \
 "CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o" \
+"CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o" \
 "CMakeFiles/CGFX5.dir/src/main.cpp.o" \
 "CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o" \
 "CMakeFiles/CGFX5.dir/src/math/color.cpp.o" \
@@ -401,6 +415,7 @@ CGFX5_EXTERNAL_OBJECTS =
 
 CGFX5: CMakeFiles/CGFX5.dir/src/core/memory.cpp.o
 CGFX5: CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o
+CGFX5: CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o
 CGFX5: CMakeFiles/CGFX5.dir/src/main.cpp.o
 CGFX5: CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o
 CGFX5: CMakeFiles/CGFX5.dir/src/math/color.cpp.o
@@ -431,7 +446,7 @@ CGFX5: /usr/lib/x86_64-linux-gnu/libGLEW.so
 CGFX5: /usr/lib/x86_64-linux-gnu/libSDL2.so
 CGFX5: /usr/lib/x86_64-linux-gnu/libassimp.so
 CGFX5: CMakeFiles/CGFX5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable CGFX5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable CGFX5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CGFX5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

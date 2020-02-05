@@ -21,11 +21,25 @@ CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o
  /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/array.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.cpp
  /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o
+ ../src/core/common.hpp
+ ../src/math/math.hpp
+ ../src/platform/generic/cmwc4096.h
+ ../src/platform/generic/genericMath.hpp
+ ../src/platform/platform.hpp
+ ../src/platform/platformMath.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/core/common.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/core/iapplicationEventHandler.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/core/input.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/array.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/map.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.cpp
+ /home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/inputControl.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o
  ../src/core/common.hpp
- ../src/core/iapplicationEventHandler.hpp
+ ../src/core/input.hpp
  ../src/dataStructures/array.hpp
- ../src/dataStructures/map.hpp
  ../src/dataStructures/string.hpp
  ../src/math/color.hpp
  ../src/math/math.hpp
@@ -51,9 +65,14 @@ CMakeFiles/CGFX5.dir/src/main.cpp.o
  ../src/platform/sse/sseVecmath.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/core/application.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/core/common.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/core/iapplicationEventHandler.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/core/memory.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/core/timing.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/core/window.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/array.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/map.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/inputControl.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/main.cpp
  /home/kcrin001/CLionProjects/CGFX5/src/math/aabb.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/math/intersects.hpp

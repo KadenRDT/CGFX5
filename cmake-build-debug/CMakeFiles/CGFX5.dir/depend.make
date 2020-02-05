@@ -21,10 +21,24 @@ CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/arra
 CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/string.cpp
 CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/string.hpp
 
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/core/common.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/math/math.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/platform/generic/cmwc4096.h
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/platform/generic/genericMath.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/platform/platform.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/platform/platformMath.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/core/common.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/core/iapplicationEventHandler.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/core/input.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/dataStructures/array.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/dataStructures/map.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/gameEventHandler.cpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/gameEventHandler.hpp
+CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/inputControl.hpp
+
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/common.hpp
-CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/iapplicationEventHandler.hpp
+CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/input.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/dataStructures/array.hpp
-CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/dataStructures/map.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/dataStructures/string.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/math/color.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/math/math.hpp
@@ -50,9 +64,14 @@ CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/platform/sdl/sdltiming.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/platform/sse/sseVecmath.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/application.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/common.hpp
+CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/iapplicationEventHandler.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/memory.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/timing.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/core/window.hpp
+CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/dataStructures/array.hpp
+CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/dataStructures/map.hpp
+CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/gameEventHandler.hpp
+CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/inputControl.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/math/aabb.hpp
 CMakeFiles/CGFX5.dir/src/main.cpp.o: ../src/math/intersects.hpp

@@ -19,6 +19,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kcrin001/CLionProjects/CGFX5/src/core/memory.cpp" "/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/CGFX5.dir/src/core/memory.cpp.o"
   "/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.cpp" "/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o"
+  "/home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.cpp" "/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o"
   "/home/kcrin001/CLionProjects/CGFX5/src/main.cpp" "/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/CGFX5.dir/src/main.cpp.o"
   "/home/kcrin001/CLionProjects/CGFX5/src/math/aabb.cpp" "/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o"
   "/home/kcrin001/CLionProjects/CGFX5/src/math/color.cpp" "/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/CGFX5.dir/src/math/color.cpp.o"

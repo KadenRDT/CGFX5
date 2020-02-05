@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../src/core/application.hpp
-platform/platformApplication.hpp
-../src/core/platform/platformApplication.hpp
-
 ../src/core/common.hpp
 cassert
 -
@@ -22,28 +18,10 @@ platform/platform.hpp
 stdint.h
 -
 
-../src/core/iapplicationEventHandler.hpp
-common.hpp
-../src/core/common.hpp
-
-../src/core/memory.hpp
-common.hpp
-../src/core/common.hpp
-platform/platformMemory.hpp
-../src/core/platform/platformMemory.hpp
-cstring
--
-
-../src/core/window.hpp
-platform/platformWindow.hpp
-../src/core/platform/platformWindow.hpp
+../src/core/input.hpp
 
 ../src/dataStructures/array.hpp
 vector
--
-
-../src/dataStructures/map.hpp
-map
 -
 
 ../src/dataStructures/string.hpp
@@ -73,22 +51,6 @@ quaternion.hpp
 ../src/math/quaternion.hpp
 plane.hpp
 ../src/math/plane.hpp
-
-../src/math/plane.hpp
-vector.hpp
-../src/math/vector.hpp
-
-../src/math/quaternion.hpp
-vector.hpp
-../src/math/vector.hpp
-
-../src/math/vecmath.hpp
-core/memory.hpp
-../src/math/core/memory.hpp
-platform/platformVecmath.hpp
-../src/math/platform/platformVecmath.hpp
-math.hpp
-../src/math/math.hpp
 
 ../src/math/vector.hpp
 core/common.hpp
@@ -224,10 +186,6 @@ math/math.hpp
 platform/platformSIMDInclude.hpp
 ../src/platform/sse/platform/platformSIMDInclude.hpp
 
-../src/rendering/renderDevice.hpp
-platform/platformRenderDevice.hpp
-../src/rendering/platform/platformRenderDevice.hpp
-
 /home/kcrin001/CLionProjects/CGFX5/src/core/application.hpp
 platform/platformApplication.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/core/platform/platformApplication.hpp
@@ -244,13 +202,9 @@ platform/platform.hpp
 stdint.h
 -
 
-/home/kcrin001/CLionProjects/CGFX5/src/core/memory.cpp
+/home/kcrin001/CLionProjects/CGFX5/src/core/iapplicationEventHandler.hpp
 common.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/core/common.hpp
-memory.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/core/memory.hpp
-new
--
 
 /home/kcrin001/CLionProjects/CGFX5/src/core/memory.hpp
 common.hpp
@@ -274,24 +228,28 @@ platform/platformWindow.hpp
 vector
 -
 
-/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.cpp
-string.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.hpp
-fstream
+/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/map.hpp
+map
 -
 
-/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.hpp
-string
--
-sstream
--
-core/common.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/core/common.hpp
-array.hpp
+/home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.hpp
+core/iapplicationEventHandler.hpp
+/home/kcrin001/CLionProjects/CGFX5/src/core/iapplicationEventHandler.hpp
+dataStructures/map.hpp
+/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/map.hpp
+dataStructures/array.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/array.hpp
+inputControl.hpp
+/home/kcrin001/CLionProjects/CGFX5/src/inputControl.hpp
+
+/home/kcrin001/CLionProjects/CGFX5/src/inputControl.hpp
+math/math.hpp
+-
 
 /home/kcrin001/CLionProjects/CGFX5/src/main.cpp
 iostream
+-
+core/input.hpp
 -
 core/application.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/core/application.hpp
@@ -317,24 +275,14 @@ math/plane.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/plane.hpp
 math/intersects.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/intersects.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/math/aabb.cpp
-aabb.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/aabb.hpp
+gameEventHandler.hpp
+/home/kcrin001/CLionProjects/CGFX5/src/gameEventHandler.hpp
 
 /home/kcrin001/CLionProjects/CGFX5/src/math/aabb.hpp
 vector.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/vector.hpp
 matrix.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/matrix.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/math/color.cpp
-color.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/color.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/math/color.hpp
-vecmath.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.hpp
 
 /home/kcrin001/CLionProjects/CGFX5/src/math/intersects.hpp
 plane.hpp
@@ -346,10 +294,6 @@ aabb.hpp
 platform/platformMath.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/platform/platformMath.hpp
 
-/home/kcrin001/CLionProjects/CGFX5/src/math/matrix.cpp
-matrix.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/matrix.hpp
-
 /home/kcrin001/CLionProjects/CGFX5/src/math/matrix.hpp
 vecmath.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.hpp
@@ -360,37 +304,19 @@ quaternion.hpp
 plane.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/plane.hpp
 
-/home/kcrin001/CLionProjects/CGFX5/src/math/plane.cpp
-plane.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/plane.hpp
-matrix.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/matrix.hpp
-
 /home/kcrin001/CLionProjects/CGFX5/src/math/plane.hpp
 vector.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/vector.hpp
 
-/home/kcrin001/CLionProjects/CGFX5/src/math/quaternion.cpp
-quaternion.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/quaternion.hpp
-
 /home/kcrin001/CLionProjects/CGFX5/src/math/quaternion.hpp
 vector.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/vector.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/math/sphere.cpp
-sphere.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/sphere.hpp
 
 /home/kcrin001/CLionProjects/CGFX5/src/math/sphere.hpp
 vector.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/vector.hpp
 matrix.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/matrix.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/math/transform.cpp
-transform.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/transform.hpp
 
 /home/kcrin001/CLionProjects/CGFX5/src/math/transform.hpp
 vector.hpp
@@ -399,12 +325,6 @@ quaternion.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/quaternion.hpp
 matrix.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/matrix.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.cpp
-vecmath.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.hpp
-limits
--
 
 /home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.hpp
 core/memory.hpp
@@ -414,117 +334,11 @@ platform/platformVecmath.hpp
 math.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/math.hpp
 
-/home/kcrin001/CLionProjects/CGFX5/src/math/vector.cpp
-vector.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/vector.hpp
-
 /home/kcrin001/CLionProjects/CGFX5/src/math/vector.hpp
 core/common.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/core/common.hpp
 vecmath.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericMemory.cpp
-genericMemory.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericMemory.hpp
-math/math.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/math/math.hpp
-cstdlib
--
-stdio.h
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericMemory.hpp
-core/common.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/core/common.hpp
-cstring
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/openGLRenderDevice.cpp
-openGLRenderDevice.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/openGLRenderDevice.hpp
-core/common.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/core/common.hpp
-dataStructures/array.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/dataStructures/array.hpp
-SDL2/SDL.h
--
-GL/glew.h
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/openGLRenderDevice.hpp
-core/window.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/core/window.hpp
-math/color.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/math/color.hpp
-dataStructures/map.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/dataStructures/map.hpp
-SDL2/SDL.h
--
-GL/glew.h
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlApplication.cpp
-sdlApplication.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlApplication.hpp
-core/common.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/core/common.hpp
-SDL2/SDL.h
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlApplication.hpp
-core/common.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/core/common.hpp
-core/iapplicationEventHandler.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/core/iapplicationEventHandler.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlWindow.cpp
-sdlWindow.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlWindow.hpp
-rendering/renderDevice.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/rendering/renderDevice.hpp
-stdexcept
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlWindow.hpp
-core/common.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/core/common.hpp
-core/application.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/core/application.hpp
-dataStructures/string.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/dataStructures/string.hpp
-SDL2/SDL.h
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdltiming.cpp
-sdltiming.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdltiming.hpp
-SDL2/SDL.h
--
-time.h
--
-Windows.h
--
-iostream
--
-sys/time.h
--
-SDL2/SDL.h
--
-chrono
--
-
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdltiming.hpp
-core/common.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/core/common.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/arrayBitmap.cpp
-arrayBitmap.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/arrayBitmap.hpp
-core/memory.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/core/memory.hpp
-staticLibs/stb_image.h
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/staticLibs/stb_image.h
 
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/arrayBitmap.hpp
 core/common.hpp
@@ -532,19 +346,9 @@ core/common.hpp
 dataStructures/string.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/dataStructures/string.hpp
 
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/ddstexture.cpp
-ddstexture.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/ddstexture.hpp
-core/memory.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/core/memory.hpp
-
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/ddstexture.hpp
 core/common.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/core/common.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/indexedModel.cpp
-indexedModel.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/indexedModel.hpp
 
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/indexedModel.hpp
 renderDevice.hpp
@@ -557,16 +361,6 @@ math/vector.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/math/vector.hpp
 math/matrix.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/math/matrix.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/modelLoader.cpp
-modelLoader.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/modelLoader.hpp
-assimp/Importer.hpp
--
-assimp/scene.h
--
-assimp/postprocess.h
--
 
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/modelLoader.hpp
 indexedModel.hpp
@@ -610,36 +404,6 @@ texture.hpp
 sampler.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/sampler.hpp
 
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/staticLibs/stb_image.h
-stb_image.h
-/home/kcrin001/CLionProjects/CGFX5/src/rendering/staticLibs/stb_image.h
-stdio.h
--
-stdarg.h
--
-stddef.h
--
-stdlib.h
--
-string.h
--
-limits.h
--
-math.h
--
-stdio.h
--
-assert.h
--
-stdint.h
--
-emmintrin.h
--
-intrin.h
--
-arm_neon.h
--
-
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/texture.hpp
 renderDevice.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/renderDevice.hpp
@@ -657,22 +421,6 @@ renderDevice.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/renderDevice.hpp
 indexedModel.hpp
 /home/kcrin001/CLionProjects/CGFX5/src/rendering/indexedModel.hpp
-
-/home/kcrin001/CLionProjects/CGFX5/src/test.cpp
-tests.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/tests.hpp
-core/timing.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/core/timing.hpp
-math/transform.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/transform.hpp
-math/sphere.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/sphere.hpp
-math/aabb.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/aabb.hpp
-math/plane.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/plane.hpp
-math/intersects.hpp
-/home/kcrin001/CLionProjects/CGFX5/src/math/intersects.hpp
 
 /home/kcrin001/CLionProjects/CGFX5/src/tests.hpp
 

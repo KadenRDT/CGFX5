@@ -177,6 +177,33 @@ src/dataStructures/string.cpp.s:
 	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.s
 .PHONY : src/dataStructures/string.cpp.s
 
+src/gameEventHandler.o: src/gameEventHandler.cpp.o
+
+.PHONY : src/gameEventHandler.o
+
+# target to build an object file
+src/gameEventHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o
+.PHONY : src/gameEventHandler.cpp.o
+
+src/gameEventHandler.i: src/gameEventHandler.cpp.i
+
+.PHONY : src/gameEventHandler.i
+
+# target to preprocess a source file
+src/gameEventHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.i
+.PHONY : src/gameEventHandler.cpp.i
+
+src/gameEventHandler.s: src/gameEventHandler.cpp.s
+
+.PHONY : src/gameEventHandler.s
+
+# target to generate assembly for a file
+src/gameEventHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.s
+.PHONY : src/gameEventHandler.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -786,6 +813,9 @@ help:
 	@echo "... src/dataStructures/string.o"
 	@echo "... src/dataStructures/string.i"
 	@echo "... src/dataStructures/string.s"
+	@echo "... src/gameEventHandler.o"
+	@echo "... src/gameEventHandler.i"
+	@echo "... src/gameEventHandler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
