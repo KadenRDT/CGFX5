@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CGFX5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\res\;CMake Files\res\models\;CMake Files\res\shaders\;CMake Files\res\textures\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGFX5">
+				<Option output="/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CGFX5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kcrin001/CLionProjects/CGFX5/headers"/>
+					<Add directory="/home/kcrin001/CLionProjects/CGFX5/sources"/>
+					<Add directory="/home/kcrin001/CLionProjects/CGFX5/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGFX5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGFX5/fast">
+				<Option output="/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CGFX5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kcrin001/CLionProjects/CGFX5/headers"/>
+					<Add directory="/home/kcrin001/CLionProjects/CGFX5/sources"/>
+					<Add directory="/home/kcrin001/CLionProjects/CGFX5/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGFX5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/application.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/common.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/iapplicationEventHandler.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/memory.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/memory.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/timing.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/core/window.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/array.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/map.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/input/iinput.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/main.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/aabb.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/aabb.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/color.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/color.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/intersects.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/math.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/matrix.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/matrix.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/plane.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/plane.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/quaternion.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/quaternion.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/sphere.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/sphere.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/transform.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/transform.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/vecmath.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/vector.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/math/vector.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/cmwc4096.c">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/cmwc4096.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericMath.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericMemory.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericMemory.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/genericVecmath.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/openGLRenderDevice.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/opengl/openGLRenderDevice.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platform.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformApplication.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformMath.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformMemory.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformRenderDevice.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformSIMDInclude.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformTiming.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformVecmath.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/platformWindow.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlApplication.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlApplication.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlWindow.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdlWindow.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdltiming.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/sdl/sdltiming.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/platform/sse/sseVecmath.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/allocators.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/cursorstreamwrapper.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/document.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/encodedstream.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/encodings.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/error/en.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/error/error.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/filereadstream.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/filewritestream.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/fwd.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/biginteger.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/diyfp.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/dtoa.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/ieee754.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/itoa.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/meta.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/pow10.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/regex.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/stack.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/strfunc.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/strtod.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/internal/swap.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/istreamwrapper.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/memorybuffer.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/memorystream.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/msinttypes/inttypes.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/msinttypes/stdint.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/ostreamwrapper.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/pointer.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/prettywriter.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/rapidjson.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/reader.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/schema.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/stream.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/stringbuffer.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rapidjson/writer.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/arrayBitmap.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/arrayBitmap.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/ddstexture.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/ddstexture.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/indexedModel.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/indexedModel.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/material.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/modelLoader.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/modelLoader.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/renderContext.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/renderDevice.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/renderTarget.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/sampler.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/shader.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/staticLibs/stb_image.c">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/staticLibs/stb_image.h">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/texture.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/uniformBuffer.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/rendering/vertexArray.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/test.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/tests.hpp">
+			<Option target="CGFX5"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/cmake/FindASSIMP.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/cmake/FindGLEW.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/cube.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/levelTest.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/monkey3.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/plane.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/plane2.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/plane3.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/plane4.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/sphere.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/models/terrain02.obj">
+			<Option virtualFolder="CMake Files\res\models\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/shaders/basicShader.glsl">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/shaders/common.glh">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/shaders/nullShader.glsl">
+			<Option virtualFolder="CMake Files\res\shaders\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/black.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks.dds">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks.jpg">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks2.jpg">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks2_disp.jpg">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks2_normal.jpg">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks2_normal.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks_disp.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/bricks_normal.jpg">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/defaultTexture.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/default_disp.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/default_normal.jpg">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/test.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/res/textures/white.png">
+			<Option virtualFolder="CMake Files\res\textures\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

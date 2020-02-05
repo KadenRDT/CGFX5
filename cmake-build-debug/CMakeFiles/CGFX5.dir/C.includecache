@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/cmwc4096.c
+cmwc4096.h
+/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/cmwc4096.h
+
+/home/kcrin001/CLionProjects/CGFX5/src/platform/generic/cmwc4096.h
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

@@ -20,6 +20,7 @@
 
 # we need features that are 2.6 >= dependent
 cmake_minimum_required(VERSION 2.6)
+cmake_policy(SET CMP0072 NEW)
 
 # lets name the project
 project(CGFX5)
@@ -67,7 +68,7 @@ file(GLOB_RECURSE SRCS
 )
 
 # Define the executable
-add_executable(CGFX5 ${HDRS} ${SRCS})
+add_executable(CGFX5 ${HDRS} ${SRCS} src/core/iapplicationEventHandler.hpp)
 
 # We need a CMAKE_DIR with some code to find external dependencies
 SET(CGFX5_CMAKE_DIR "${CGFX5_SOURCE_DIR}/cmake")

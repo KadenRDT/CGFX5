@@ -1,0 +1,3 @@
+/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/CGFX5.dir
+/home/kcrin001/CLionProjects/CGFX5/cmake-build-debug/CMakeFiles/edit_cache.dir

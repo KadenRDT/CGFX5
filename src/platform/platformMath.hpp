@@ -13,4 +13,5 @@
 #define MATH_DEG_TO_RAD_CONV 0.0174532925199433f
 
 #include "generic/genericMath.hpp"
+
 typedef GenericMath PlatformMath;

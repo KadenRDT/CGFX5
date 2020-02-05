@@ -1,0 +1,7 @@
+/home/kcrin001/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kcrin001/CLionProjects/CGFX5
+-- Looking for GLEW - found
+-- Looking for SDL2 - found
+-- Looking for ASSIMP - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kcrin001/CLionProjects/CGFX5/cmake-build-debug

@@ -1,7 +1,7 @@
 #pragma once
 
-namespace Tests
-{
-	void runTests();
-	void runPerformanceTests();
+namespace Tests {
+    void runTests();
+
+    void runPerformanceTests();
 };

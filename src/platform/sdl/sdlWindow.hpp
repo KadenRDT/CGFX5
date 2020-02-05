@@ -6,21 +6,26 @@
 
 #include <SDL2/SDL.h>
 
-typedef SDL_Window* WindowHandle;
+typedef SDL_Window *WindowHandle;
 
-class SDLWindow
-{
+class SDLWindow {
 public:
-	SDLWindow(const Application& app, int32 width, int32 height, const String& title);
-	virtual ~SDLWindow();
+    SDLWindow(const Application &app, int32 width, int32 height, const String &title);
 
-	WindowHandle getWindowHandle();
-	void changeSize(int32 width, int32 height);
-	void present();
-	int32 getWidth() const;
-	int32 getHeight() const;
+    virtual ~SDLWindow();
+
+    WindowHandle getWindowHandle();
+
+    void changeSize(int32 width, int32 height);
+
+    void present();
+
+    int32 getWidth() const;
+
+    int32 getHeight() const;
+
 private:
-	WindowHandle window;
-	int32 width;
-	int32 height;
+    WindowHandle window;
+    int32 width;
+    int32 height;
 };

@@ -3,10 +3,10 @@
 
 #include "core/common.hpp"
 
-struct SDLTiming
-{
-	static double getTime();
-	static void sleep(uint32 milliseconds);
+struct SDLTiming {
+    static double getTime();
+
+    static void sleep(uint32 milliseconds);
 };
 
 #endif
