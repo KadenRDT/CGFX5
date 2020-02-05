@@ -21,6 +21,12 @@ CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/arra
 CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/string.cpp
 CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/string.hpp
 
+CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/core/common.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/dataStructures/array.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/platform/platform.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/ecs/ecsComponent.cpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/ecs/ecsComponent.hpp
+
 CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/core/common.hpp
 CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/math/math.hpp
 CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/platform/generic/cmwc4096.h
