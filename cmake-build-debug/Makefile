@@ -177,6 +177,33 @@ src/dataStructures/string.cpp.s:
 	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.s
 .PHONY : src/dataStructures/string.cpp.s
 
+src/ecs/ecs.o: src/ecs/ecs.cpp.o
+
+.PHONY : src/ecs/ecs.o
+
+# target to build an object file
+src/ecs/ecs.cpp.o:
+	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o
+.PHONY : src/ecs/ecs.cpp.o
+
+src/ecs/ecs.i: src/ecs/ecs.cpp.i
+
+.PHONY : src/ecs/ecs.i
+
+# target to preprocess a source file
+src/ecs/ecs.cpp.i:
+	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.i
+.PHONY : src/ecs/ecs.cpp.i
+
+src/ecs/ecs.s: src/ecs/ecs.cpp.s
+
+.PHONY : src/ecs/ecs.s
+
+# target to generate assembly for a file
+src/ecs/ecs.cpp.s:
+	$(MAKE) -f CMakeFiles/CGFX5.dir/build.make CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.s
+.PHONY : src/ecs/ecs.cpp.s
+
 src/ecs/ecsComponent.o: src/ecs/ecsComponent.cpp.o
 
 .PHONY : src/ecs/ecsComponent.o
@@ -840,6 +867,9 @@ help:
 	@echo "... src/dataStructures/string.o"
 	@echo "... src/dataStructures/string.i"
 	@echo "... src/dataStructures/string.s"
+	@echo "... src/ecs/ecs.o"
+	@echo "... src/ecs/ecs.i"
+	@echo "... src/ecs/ecs.s"
 	@echo "... src/ecs/ecsComponent.o"
 	@echo "... src/ecs/ecsComponent.i"
 	@echo "... src/ecs/ecsComponent.s"
