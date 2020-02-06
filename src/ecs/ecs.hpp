@@ -10,9 +10,44 @@ public:
 
     ~ECS();
 
-    EntityHandle makeEntity(BaseECSComponent *entityComponents, const uint32 *componentIDs, size_t numComponents);
+    EntityHandle makeEntity(BaseECSComponent **entityComponents, const uint32 *componentIDs, size_t numComponents);
 
     void removeEntity(EntityHandle handle);
+
+    template<class A>
+    EntityHandle makeEntity(A &c1) {
+        BaseECSComponent *components[] = {&c1};
+        uint32 componentIDs[] = {A::ID};
+        return makeEntity(components, componentIDs, 1);
+    }
+
+    template<class A, class B>
+    EntityHandle makeEntity(A &c1, B &c2) {
+        BaseECSComponent *components[] = {&c1, &c2};
+        uint32 componentIDs[] = {A::ID, B::ID};
+        return makeEntity(components, componentIDs, 2);
+    }
+
+    template<class A, class B, class C>
+    EntityHandle makeEntity(A &c1, B &c2, C &c3) {
+        BaseECSComponent *components[] = {&c1, &c2, &c3};
+        uint32 componentIDs[] = {A::ID, B::ID, C::ID};
+        return makeEntity(components, componentIDs, 3);
+    }
+
+    template<class A, class B, class C, class D>
+    EntityHandle makeEntity(A &c1, B &c2, C &c3, D &c4) {
+        BaseECSComponent *components[] = {&c1, &c2, &c3, &c4};
+        uint32 componentIDs[] = {A::ID, B::ID, C::ID, D::ID};
+        return makeEntity(components, componentIDs, 4);
+    }
+
+    template<class A, class B, class C, class D, class E>
+    EntityHandle makeEntity(A &c1, B &c2, C &c3, D &c4, E &c5) {
+        BaseECSComponent *components[] = {&c1, &c2, &c3, &c4, &c5};
+        uint32 componentIDs[] = {A::ID, B::ID, C::ID, D::ID, E::ID};
+        return makeEntity(components, componentIDs, 5);
+    }
 
     template<class Component>
     inline void addComponent(EntityHandle entity, Component *component) {
@@ -26,19 +61,12 @@ public:
 
     template<class Component>
     Component *getComponent(EntityHandle entity) {
-        getComponentInternal(handleToEntity(entity), Component::ID);
+        return (Component *) getComponentInternal(handleToEntity(entity), components[Component::ID], Component::ID);
     }
 
-    inline void addSystem(BaseECSSystem &system) {
-        systems.push_back(&system);
-    }
-
-    void updateSystems(float delta);
-
-    void removeSystem(BaseECSSystem &system);
+    void updateSystems(ECSSystemList &systems, float delta);
 
 private:
-    Array<BaseECSSystem *> systems;
     Map<uint32, Array<uint8>> components;
     Array<std::pair<uint32, Array<std::pair<uint32, uint32>>> *> entities;
 
@@ -61,6 +89,15 @@ private:
     void addComponentInternal(EntityHandle handle, Array<std::pair<uint32, uint32>> &entity, uint32 componentID,
                               BaseECSComponent *component);
 
-    BaseECSComponent *getComponentInternal(Array<std::pair<uint32, uint32>> &entityComponents, uint32 componentID);
+    BaseECSComponent *
+    getComponentInternal(Array<std::pair<uint32, uint32>> &entityComponents, Array<uint8> &array, uint32 componentID);
+
+    void updateSystemWithMultipleComponents(uint32 index, ECSSystemList &systems, float delta,
+                                            const Array<uint32> &componentTypes,
+                                            Array<BaseECSComponent *> &componentParam,
+                                            Array<Array<uint8> *> &componentArrays);
+
+    uint32 findLeastCommonComponent(const Array<uint32> &componentTypes, const Array<uint32> &componentFlags);
+
     NULL_COPY_AND_ASSIGN(ECS);
 };

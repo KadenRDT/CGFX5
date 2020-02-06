@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o"
   "CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o"
   "CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o"
+  "CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o"
   "CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o"
   "CMakeFiles/CGFX5.dir/src/main.cpp.o"
   "CMakeFiles/CGFX5.dir/src/math/aabb.cpp.o"

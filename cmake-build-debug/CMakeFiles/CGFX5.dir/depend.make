@@ -21,11 +21,34 @@ CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/arra
 CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/string.cpp
 CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o: ../src/dataStructures/string.hpp
 
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/core/common.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/core/memory.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/dataStructures/array.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/dataStructures/map.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/math/math.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/platform/generic/cmwc4096.h
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/platform/generic/genericMath.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/platform/generic/genericMemory.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/platform/platform.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/platform/platformMath.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/platform/platformMemory.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/ecs/ecs.cpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/ecs/ecs.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/ecs/ecsComponent.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o: ../src/ecs/ecsSystem.hpp
+
 CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/core/common.hpp
 CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/dataStructures/array.hpp
 CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/platform/platform.hpp
 CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/ecs/ecsComponent.cpp
 CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o: ../src/ecs/ecsComponent.hpp
+
+CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o: ../src/core/common.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o: ../src/dataStructures/array.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o: ../src/platform/platform.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o: ../src/ecs/ecsComponent.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o: ../src/ecs/ecsSystem.cpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o: ../src/ecs/ecsSystem.hpp
 
 CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/core/common.hpp
 CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o: ../src/math/math.hpp

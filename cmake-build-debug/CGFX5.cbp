@@ -138,6 +138,9 @@
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsComponent.hpp">
 			<Option target="CGFX5"/>
 		</Unit>
+		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsSystem.cpp">
+			<Option target="CGFX5"/>
+		</Unit>
 		<Unit filename="/home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsSystem.hpp">
 			<Option target="CGFX5"/>
 		</Unit>

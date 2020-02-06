@@ -21,12 +21,35 @@ CMakeFiles/CGFX5.dir/src/dataStructures/string.cpp.o
  /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/array.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.cpp
  /home/kcrin001/CLionProjects/CGFX5/src/dataStructures/string.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecs.cpp.o
+ ../src/core/common.hpp
+ ../src/core/memory.hpp
+ ../src/dataStructures/array.hpp
+ ../src/dataStructures/map.hpp
+ ../src/math/math.hpp
+ ../src/platform/generic/cmwc4096.h
+ ../src/platform/generic/genericMath.hpp
+ ../src/platform/generic/genericMemory.hpp
+ ../src/platform/platform.hpp
+ ../src/platform/platformMath.hpp
+ ../src/platform/platformMemory.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecs.cpp
+ /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecs.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsComponent.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsSystem.hpp
 CMakeFiles/CGFX5.dir/src/ecs/ecsComponent.cpp.o
  ../src/core/common.hpp
  ../src/dataStructures/array.hpp
  ../src/platform/platform.hpp
  /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsComponent.cpp
  /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsComponent.hpp
+CMakeFiles/CGFX5.dir/src/ecs/ecsSystem.cpp.o
+ ../src/core/common.hpp
+ ../src/dataStructures/array.hpp
+ ../src/platform/platform.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsComponent.hpp
+ /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsSystem.cpp
+ /home/kcrin001/CLionProjects/CGFX5/src/ecs/ecsSystem.hpp
 CMakeFiles/CGFX5.dir/src/gameEventHandler.cpp.o
  ../src/core/common.hpp
  ../src/math/math.hpp
